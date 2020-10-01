@@ -19,9 +19,9 @@
         <div class="row">
             <div class="col-md-6 leftbox">
                 <h1>Personal Loan EMI Calculators</h1> 
-           <p class="input-form">Total Amount of Loan:</p><input id="loan" class="input-box" type="text" name="loan" value="" onkeypress="return isNumber(event)" required/>
+           <p class="input-form">Total Amount of Loan:</p><input id="loan" class="input-box" type="text" name="loan" value="" onchange="myfun()" onkeypress="return isNumber(event)" required/>
            
-           <p  class="input-form" >Total intrest:</p><input id="roi" class="input-box" type="text" name="roi" value=""  required/> 
+           <p  class="input-form" >Total intrest:</p><input id="roi" class="input-box" type="text" name="roi" value="" onchange="myfun()" required/> 
            <p  class="input-form">Terms (years):</p> <input  id="term" class="input-box" type="text" name="term" value="" onchange="myfun()" onkeypress="return isNumber(event)" required/>
 
                 
